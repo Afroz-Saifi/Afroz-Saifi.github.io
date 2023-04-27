@@ -1,4 +1,4 @@
-const menus = document.querySelectorAll(".nav-link");
+const menus = document.querySelectorAll("#nav-menu .nav-link");
 
 menus.forEach((menu) => {
   menu.addEventListener("click", (e) => {
@@ -10,3 +10,5 @@ menus.forEach((menu) => {
     menu.classList.add("active_menu");
   });
 });
+
+// http://www.emilyridge.ie/

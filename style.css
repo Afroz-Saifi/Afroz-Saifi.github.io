@@ -1,41 +1,48 @@
+:root {
+  --main_font: "Varela Round", sans-serif;
+  --side_font: "Roboto", sans-serif;
+  --main_color: #53d4ba;
+  --light_color: #ffffffaa;
+  --background_light: #0a192f;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--main_font);
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-:root {
-    --main_font: "Varela Round", sans-serif;
-  --main_color: #06bc9b;
-  --light_color: rgba(82, 93, 104, 0.7);
-  --background_light: #f2f2f2;
+body {
+  font-size: 14px;
 }
 
-body {
-    font-size: 14px;
+section {
+  scroll-margin-top: 50px;
 }
+
+/* section */
 
 #nav-menu {
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-color: #fff;
-    overflow: hidden;
-    font-family: var(--main_font);
-    font-size: 1em;
-    display: flex;
-    padding: 0 10px;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
+  background-color: var(--background_light);
+  overflow: hidden;
+  font-family: var(--side_font);
+  font-size: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 10px 0 4px 0;
 }
 
-#user-detail-name{
-    font-size: 2em;
-    color: var(--main_color);
+#logo {
+  width: 30px;
+  border-radius: 50%;
 }
 
 #nav-menu ul {
@@ -47,33 +54,63 @@ body {
   display: inline-block;
 }
 
-.active_menu{
-    border-bottom: 2px solid var(--main_color);
-    color: var(--main_color);
+#nav-menu .active_menu {
+  border-bottom: 2px solid var(--main_color);
+  color: var(--main_color);
 }
 
 #nav-menu li a {
   display: block;
-  color: var(--light_color);
   text-align: center;
-  padding: 14px 16px;
+  padding: 6px 16px;
   text-decoration: none;
+  color: #ffff;
 }
 
-#nav-menu li a :active{
-    text-decoration: underline;
-    color: var(--main_color);
+#nav-menu li a :active {
+  text-decoration: underline;
+  color: var(--main_color);
 }
 
 #nav-menu li a:hover {
   color: var(--main_color);
 }
 
-section {
-  padding: 50px;
+/* home section starts here */
+#home {
   background-color: var(--background_light);
+  color: #ffff;
+}
+#home .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+#home .left_home_container {
+  width: 50%;
 }
 
-h2 {
-  margin-top: 0;
+#home .left_home_container .box .hi_my_name_is {
+  font-family: var(--side_font);
+  color: var(--main_color);
+}
+#home .left_home_container .box .my_name {
+  font-size: 3em;
+}
+#home .left_home_container .box .profession {
+  font-size: 2.6em;
+  color: var(--light_color);
+}
+#home .left_home_container .box .my_overview {
+  color: var(--light_color);
+  padding-top: 10px;
+  line-height: 20px;
+  font-size: 1em;
+}
+#home .right_home_container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
