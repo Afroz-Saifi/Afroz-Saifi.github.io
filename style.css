@@ -21,12 +21,19 @@ body {
   font-size: 14px;
 }
 
+/* section */
 section {
-  scroll-margin-top: 50px;
+  scroll-margin-top: 60px;
 }
 
-/* section */
+/* resume button */
+.resume{
+  border: 1px solid var(--main_color);
+  border-radius: 4px;
+  transition: 0.3s;
+}
 
+/* navigation bar */
 #nav-menu {
   background-color: var(--background_light);
   overflow: hidden;
@@ -41,7 +48,7 @@ section {
 }
 
 #logo {
-  width: 30px;
+  width: 50px;
   border-radius: 50%;
 }
 
@@ -59,12 +66,18 @@ section {
   color: var(--main_color);
 }
 
-#nav-menu li a {
+#nav-menu li a, #resume-button-1 {
   display: block;
   text-align: center;
   padding: 6px 16px;
   text-decoration: none;
   color: #ffff;
+  font-size: 1.4em;
+}
+
+#resume-button-1{
+  width: 150px;
+  margin-top: 16px;
 }
 
 #nav-menu li a :active {
@@ -72,7 +85,7 @@ section {
   color: var(--main_color);
 }
 
-#nav-menu li a:hover {
+#nav-menu li a:hover, #resume-button-1:hover {
   color: var(--main_color);
 }
 
