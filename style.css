@@ -122,6 +122,9 @@ section {
   line-height: 24px;
   font-size: 1.4em;
 }
+#user-detail-intro{
+  letter-spacing: 1.5px;
+}
 #home .right_home_container img {
   width: 300px;
   height: 300px;
