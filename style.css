@@ -157,6 +157,24 @@ background-color: var(--main_color);
 #about .container .contact_links p i{
   margin-right: 4px;
 }
-#about .container{
 
+/* skill section */
+#skills{
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#skills .skills-card{
+  width: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#skills .skills-card img{
+  width: 100px;
 }
