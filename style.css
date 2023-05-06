@@ -178,3 +178,26 @@ background-color: var(--main_color);
 #skills .skills-card img{
   width: 100px;
 }
+
+/* projects */
+#projects{
+  text-align: center;
+  background-color: var(--background_light);
+  color: var(--main_color);
+  min-height: 90vh;
+  padding: 10px;
+}
+#projects .container{
+  min-height: 80vh;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#projects .container .project-card{
+  width: 200px;
+}
+#projects .container .project-card img{
+  width: 100%;
+}
