@@ -11,4 +11,8 @@ menus.forEach((menu) => {
   });
 });
 
+const resume = () => {
+  window.open('https://drive.google.com/file/d/1TU2lzemlh3yLqphJQEyR6EF_7sKSe8dg/view?usp=share_link')
+}
+
 // http://www.emilyridge.ie/
