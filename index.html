@@ -17,7 +17,7 @@
     <a href="#" class="logo"><h2>Afroz <span style="color: black;">Khan</span></h2></a>
 
     <ul id="nav-menu" class="navbar">
-      <li><a href="#" class="active nav-link home">Home</a></li>
+      <li><a href="#" class="active nav-link home active_menu">Home</a></li>
       <li><a href="#about" class="nav-link about section">About</a></li>
       <li><a href="#skills-sec" class="nav-link skills">Skills</a></li>
       <li><a href="#projects-sec" class="nav-link projects">Projects</a></li>
@@ -67,7 +67,7 @@
 
 
     <section id="about" class="about section">
-        <div><img src="./images/suit.jpg" class="home-img" alt="Krunal">
+        <div><img src="./images/suit.jpg" class="home-img" alt="Afroz">
         </div>
         <div>
           <h1>About Me</h1>
@@ -306,5 +306,18 @@ function resume(){
     window.open("https://drive.google.com/file/d/1vn673A0AvSwxSc3c1lTaLJhHDsf0VgNc/view?usp=drive_link")
 }
 
+
+const menus = document.querySelectorAll("#nav-menu .nav-link");
+
+menus.forEach((menu) => {
+  menu.addEventListener("click", (e) => {
+    // Remove selected class from all size options
+    menus.forEach((menu) => {
+      menu.classList.remove("active_menu");
+    });
+    // Add active_menu class to the clicked size option
+    menu.classList.add("active_menu");
+  });
+});
 
 </script>
