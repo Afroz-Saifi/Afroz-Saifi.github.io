@@ -1,310 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!-- main navigation bar starts -->
-    <nav id="nav-menu">
-      <div class="my_name">
-        <img src="./images/logo.png" alt="" id="logo" class="home-img" />
-      </div>
-      <ul>
-        <li><a href="#home" class="nav-link home active_menu">Home</a></li>
-        <li><a href="#about" class="nav-link about">About</a></li>
-        <li><a href="#skills" class="nav-link skills">Skills</a></li>
-        <li><a href="#projects" class="nav-link projects">Projects</a></li>
-        <li><a href="#contact" class="nav-link contact">Contact</a></li>
-        <li>
-          <button onclick="resume()" style="border:none; background-color: white;" id="resume-button-1" >
-            <a href="./images/Afroz-Khan-Resume.pdf" target="_blank" class="nav-link resume" id="resume-link-1" download>Resume</a>
-          </button>
-        </li>
-      </ul>
-    </nav>
-    <!-- main navigation ends -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/69_YG2leWstfEqXHyW6-2Vyu9TFUNcoqdK-YCxgj624MaFF4ZCPRJSnXnVKns6Hj7w" type="image/x-icon">
+    <title> Afroz Khan | Web Developer</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
 
-    <!-- home section stars -->
-    <section id="home">
-      <div class="container">
-        <div class="left_home_container">
-          <div class="box">
-            <p class="hi_my_name_is">Hi, my name is</p>
-            <p class="my_name" id="user-detail-name">Afroz Khan.</p>
-            <p class="profession">Full Stack Web Developer</p>
-            <p class="my_overview">
-              I specialize in creating server-side applications and APIs using
-              Node.js, Express, and MongoDB. While my focus is on the backend, I
-              have a solid understanding of front-end technologies such as HTML,
-              CSS, and JavaScript, as well as experience with tools like
-              Photoshop.
-            </p>
-            <button onclick="resume()" id="resume-button-2" >
-              <a href="./images/Afroz-Khan-Resume.pdf" target="_blank" id="resume-link-2" download>Resume</a>
+
+  <header>
+    <a href="#" class="logo"><h2>Afroz <span style="color: black;">Khan</span></h2></a>
+
+    <ul id="nav-menu" class="navbar">
+      <li><a href="#" class="active nav-link home">Home</a></li>
+      <li><a href="#about" class="nav-link about section">About</a></li>
+      <li><a href="#skills-sec" class="nav-link skills">Skills</a></li>
+      <li><a href="#projects-sec" class="nav-link projects">Projects</a></li>
+      <li><a href="#contact" class="nav-link contact">Contact</a></li>
+      <li> <button onclick="resume()" style="border:none; background-color: white;" id="resume-button-1" >
+        <a href="./resume/Afroz-Khan-Resume.pdf" target="_blank" class="nav-link resume" id="resume-link-1" download>Resume</a>
+      </button>
+      </li>
+    </ul>
+    <a href="#" class="logo bx bx-menu" id="menu-icon"><span class="material-symbols-outlined">menu</span></a>
+  </header>
+
+
+<!-- ******************************************************************************************************* -->
+
+
+  <div class="main-container">
+    <section id="home" class="margin-t-b main-body">
+      <div></div>
+      <div id="user-detail-name" class="home-text">
+        <p>Hello, I’m</p>
+        <h1>Afroz Khan</h1>
+        <p class="node">FULL STACK WEB DEVELOPER </p>
+        <div class="home-links">
+          <div class="resume" >
+            <button onclick="resume()" style="border: none;" id="resume-button-2" >
+              <a id="resume-link-2"  href="./resume/Afroz-Khan-Resume.pdf" target="_blank" class="trigger" download>Download Resume</a>
             </button>
           </div>
+          <div class="home-social">
+            <a href="https://github.com/Afroz-Saifi" id="contact-github" target="_blank">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5wJDTSaug_z6R_9N2yw9GekcRrkD3A438B8pbDW_PQEzix-SxT16LqvR7unzD4EOwfw&usqp=CAU" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/afroz-khan-044632248/" id="contact-linkedin" target="_blank">
+              <img src="https://icons-for-free.com/download-icon-linked+linkedin+social+icon-1320191444164630362_0.svg" alt="">
+            </a>
+          </div>
+        
         </div>
+  
+      </div>
+  
+    </section>
 
-        <div class="right_home_container">
-          <div class="box">
-            <img src="./images/suit.jpg" alt="" />
+
+<!-- ***************************************************************************************************** -->
+
+
+    <section id="about" class="about section">
+        <div><img src="./images/suit.jpg" class="home-img" alt="Krunal">
+        </div>
+        <div>
+          <h1>About Me</h1>
+          <p id="user-detail-intro">An aspiring Full Stack Web Developer with knowledge of 🌐HTML, ✨CSS, ⚙️JavaScript, and Passionate about staying current with the latest web development technologies and constantly enhancing my skills.</p>
+          <a href="#contact">Contact Me</a>
+        </div>
+      </section>
+
+
+
+<!-- **************************************************************************************************** -->
+
+
+
+      <section id="skills-sec">
+    </section>
+    
+    <section id="skills">
+      <h1>Technical Skills</h1>
+      <div class="skills-card">
+        <div class="container grid" id="tech">
+        <div> 
+          <img class="skills-card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="HTML"><p class="skills-card-name">HTML</p>
+        </div>
+        <div>
+          <img class="skills-card-img" src="https://camo.githubusercontent.com/edc736634dd35b0f4008e2f7db456136b9fc0e1e7a4078bb72c7352b1bdf8a7e/68747470733a2f2f776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667">CSS</p>
+        </div>
+        <div>
+          <img class="skills-card-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript"><p class="skills-card-name">JavaScript</p>
+        </div>
+        
+        <div>
+          <img class="skills-card-img" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png" alt="Node.js"><p class="skills-card-name">Node.js</p>
+        </div>
+        <div>
+          <img class="skills-card-img" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" alt="Express.js"><p class="skills-card-name">Express.js</p>
+        </div>
+        <div>
+          <img class="skills-card-img" src="https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg" alt="MongoDB"><p class="skills-card-name">MongoDB</p>
+        </div>
+        <div>
+            <img class="skills-card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1024px-Socket-io.svg.png" alt="Socket.io"><p class="skills-card-name">Socket.io</p>
+          </div>
+        <div>
+          <img class="skills-card-img" src="https://cdn-icons-png.flaticon.com/512/2306/2306173.png" alt="SQL"><p class="skills-card-name">SQL</p>
+        </div>
+        <div>
+          <img class="skills-card-img" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"><p class="skills-card-name">GitHub</p>
+        </div>
+        <div> 
+          <img class="skills-card-img" src="./images/redilogo.png" alt="VS Code"><p class="skills-card-name">Redis</p>
+        </div>
+        <div> 
+            <img class="skills-card-img" src="./images/awsLogo.png" alt="Thunder Client"><p class="skills-card-name">AWS</p>
+          </div>
+      </div>
+    </section>
+
+
+
+<!-- ******************************************************************************************************* -->
+
+
+
+    <section id="projects-sec">
+    </section>
+    <section id="projects">
+      <h1>Projects</h1>
+      <div class="all-projects">
+        <div class="project-card">
+          <div>
+            <img src="./images/lawlink.png" alt="">
+          </div>
+          <div>
+            <h1 class="project-title" >LawLink</h1>
+            <p class="project-description">An ultimate platform for booking appointments with top-notch lawyers.</p>
+            <h5  class="project-tech-stack" >Features: Sign-up/Sign-in with authenticated email | Real time chat functionality | Booking slots</h5>
+            <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | Bootstrap | JavaScript | nodeJS | expressJS | mongoDB</h5>
+            <p>A collaborative project built by a team of 5 members
+                in 5 days</p>
+            <div>
+              <a href="https://whimsical-tulumba-322d11.netlify.app/" target="_blank" class="project-deployed-link">Live &nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i></a>
+              <a href="https://github.com/Mayank-Arya/viable-argument-168" target="_blank" class="project-github-link" >Code &nbsp;<i
+                class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+       </div>
+        <div class="project-card">
+          <div>
+            <img src="./images/oop.png" alt="">
+          </div>
+          <div>
+            <h1 class="project-title" >Clone of YOOX.com</h1>
+            <p class="project-description">A comprehensive e-commerce platform that offers a diverse range of clothing categories for men and women.</p>
+            <h5  class="project-tech-stack" >Features: Sign-up/Sign-in | all types of wpmen clothes | add
+                to cart | checkout.</h5>
+            <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | JavaScript | nodeJS | expressJS | mongoDB</h5>
+            <p>An individual project built in a duration of 5 days.</p>
+            <div>
+              <a href="https://oopmark.netlify.app/" target="_blank" class="project-deployed-link">Live &nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i></a>
+              <a href="https://github.com/Afroz-Saifi/unwieldy-sponge-3549" target="_blank" class="project-github-link" >Code &nbsp;<i
+                class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+       </div>
+       <div class="project-card">
+        <div>
+          <img src="./images/votek.png" alt="">
+        </div>
+        <div>
+          <h1 class="project-title">Votek (masai)</h1>
+          <p class="project-description">Votek is an live voting app, where you can create poll (Admin) and vote for the poll(user)</p>
+          <h5  class="project-tech-stack" >Features:
+
+            Sign-up/Sign-in | admin can create mulitpe polls | Admins can view real-time votes | User
+              can vote</h5>
+          <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | NODE.js | EXPRESS.js | mongoDD | Firebase | Socket.io | React | Redux</h5>
+          <!-- <p>Completed an individual project within a span of five days.</p> -->
+          <div>
+            <a href="https://votekmasai.netlify.app/" target="_blank" class="project-deployed-link">Live &nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i></a>
+            <!-- <a href="https://github.com/KrunalGurao/Clone-of-RentoMojo/tree/main/Rentomojo" target="_blank" class="project-github-link" >Code &nbsp;<i
+              class="fa-brands fa-github"></i></a> -->
           </div>
         </div>
-      </div>
-    </section>
-    <!-- home section ends-->
-
-    <!-- about section starts here -->
-    <section id="about" class="about section">
-      <h1>About</h1>
-      <div class="container">
-        <div class="about_me">
-          <p id="user-detail-intro">
-            An enthusiastic and innovative Full Stack Web Developer with
-            hands-on experience in developing and delivering user-centric
-            software applications using Node.js technologies. Offering strong
-            expertise in multiple programming languages, including HTML, CSS,
-            and JavaScript, I am seeking to secure a challenging position as a
-            Full Stack Developer.
-          </p>
-        </div>
-        <div class="contact_links">
-          <a
-            href="https://github.com/Afroz-Saifi"
-            target="_blank"
-            id="contact-github"
-            ><i class="fa-brands fa-github" style="color: #ffff"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/afroz-khan-044632248/"
-            target="_blank"
-            id="contact-linkedin"
-            ><i class="fa-brands fa-linkedin" style="color: #ffff"></i
-          ></a>
-          <p id="contact-phone">
-            <i class="fa-solid fa-phone" style="color: #ffff"></i> +91
-            8766244046
-          </p>
-          <p id="contact-email">
-            <i class="fa-solid fa-envelope" style="color: #ffff"></i>
-            afrozsaifi@gmail.com
-          </p>
-          <!-- <a
-              href="./images/Afroz-Khan-Resume.pdf"
-              class="nav-link resume"
-              id="resume-button-1"
-              onclick="window.open('https://drive.google.com/file/d/1TU2lzemlh3yLqphJQEyR6EF_7sKSe8dg/view?usp=share_link')"
-              download
-              >Resume
-              <i
-                class="fa-solid fa-download fa-bounce fa-sm"
-                style="color: #53d4ba"
-              ></i>
-            </a> -->
-        </div>
-      </div>
-    </section>
-    <!-- about section ends here -->
-
-    <section id="skills">
-      <div class="skills-card">
-        <img
-          src="images/html_logo.png"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">HTML5</h3>
-      </div>
-      <div class="skills-card">
-        <img src="images/css_logo" alt="Skill Image" class="skills-card-img" />
-        <h3 class="skills-card-name">CSS3</h3>
-      </div>
-      <div class="skills-card">
-        <img
-          src="images/jslogo.png"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">JavaScript</h3>
-      </div>
-      <div class="skills-card">
-        <img
-          src="images/nodelogo.png"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">Node</h3>
-      </div>
-      <div class="skills-card">
-        <img
-          src="images/expresslogo.png"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">Express</h3>
-      </div>
-      <div class="skills-card">
-        <img
-          src="images/MongoDBlogo.jpg"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">MongoDB</h3>
-      </div>
-      <div class="skills-card">
-        <img
-          src="images/mongooselogo.png"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">Mongoose</h3>
-      </div>
-      <div class="skills-card">
-        <img
-          src="images/redilogo.png"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">Redis</h3>
-      </div>
-      <div class="skills-card">
-        <img
-          src="images/firebaselogo.png"
-          alt="Skill Image"
-          class="skills-card-img"
-        />
-        <h3 class="skills-card-name">Firebase</h3>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h2>My Projects</h2>
-      <div class="container">
-        <div class="project-card">
-          <img src="images/oopSS.png" alt="Project Image" />
-          <h2 class="project-title">OopMark</h2>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
-            ornare lorem, at bibendum felis. Duis luctus porta justo, sit amet
-            dignissim nunc consectetur nec.
-          </p>
-          <p class="project-tech-stack">
-            HTML, CSS, JavaScript, Node.js, Mongodb
-          </p>
-          <a
-            href="https://github.com/Afroz-Saifi/unwieldy-sponge-3549"
-            class="project-github-link"
-            >GitHub Repository</a
-          >
-          <a
-            href="https://oopmark.netlify.app/"
-            class="project-deployed-link"
-            >Deployed Link</a
-          >
-        </div>
-        <div class="project-card">
-          <img src="images/magnaSS.png" alt="Project Image" />
-          <h2 class="project-title">OopMark</h2>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
-            ornare lorem, at bibendum felis. Duis luctus porta justo, sit amet
-            dignissim nunc consectetur nec.
-          </p>
-          <p class="project-tech-stack">
-            HTML, CSS, JavaScript, Node.js, Mongodb
-          </p>
-          <a
-            href="https://github.com/Afroz-Saifi/magna-men"
-            class="project-github-link"
-            >GitHub Repository</a
-          >
-          <a
-            href="https://magnamen.netlify.app/"
-            class="project-deployed-link"
-            >Deployed Link</a
-          >
-        </div>
-        <div class="project-card">
-          <img src="images/anymealSS.png" alt="Project Image" />
-          <h2 class="project-title">OopMark</h2>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
-            ornare lorem, at bibendum felis. Duis luctus porta justo, sit amet
-            dignissim nunc consectetur nec.
-          </p>
-          <p class="project-tech-stack">
-            HTML, CSS, JavaScript, Node.js, Mongodb
-          </p>
-          <a
-            href="https://github.com/Afroz-Saifi/mucho-distribution-4811"
-            class="project-github-link"
-            >GitHub Repository</a
-          >
-          <a
-            href="https://anymeal.netlify.app/"
-            class="project-deployed-link"
-            >Deployed Link</a
-          >
-        </div>
-        <div class="project-card">
-          <img src="images/oopSS.png" alt="Project Image" />
-          <h2 class="project-title">OopMark</h2>
-          <p class="project-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget
-            ornare lorem, at bibendum felis. Duis luctus porta justo, sit amet
-            dignissim nunc consectetur nec.
-          </p>
-          <p class="project-tech-stack">
-            HTML, CSS, JavaScript, Node.js, Mongodb
-          </p>
-          <a
-            href="https://github.com/Afroz-Saifi/unwieldy-sponge-3549"
-            class="project-github-link"
-            >GitHub Repository</a
-          >
-          <a
-            href="https://oopmark.netlify.app/"
-            class="project-deployed-link"
-            >Deployed Link</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Feel free to get in touch with me using the following methods:</p>
-      <ul>
-        <li>Email: example@example.com</li>
-        <li>Phone: 123-456-7890</li>
-      </ul>
-    </section>
-
-    <!-- react-activity-calendar -->
-    <section class="react-activity-calendar">
-      <div class="container">
+     </div>
+     <div class="project-card">
         <div>
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Afroz-Saifi&show_icons=true&locale=en&layout=compact&theme=github_dark&hide_border=true" alt="" id="github-top-langs" />
-
-          <img src="https://github-readme-stats.vercel.app/api?username=Afroz-Saifi&show_icons=true&theme=THEME_NAME&hide_border=true" alt="GitHub Stats" id="github-stats-card" />
-
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=Afroz-Saifi&theme=github-dark&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="" id="github-streak-stats" />
+          <img src="./images/magna.png" alt="">
         </div>
-      </div>
+        <div>
+          <h1 class="project-title" >Clone of destinationxl.com</h1>
+          <p class="project-description">A platform for buying plus sized clothing items for men.</p>
+          <h5  class="project-tech-stack" >Features: Sign-up/Sign-in | Different categories filters | Add to cart | Checkout | Admin dashboard</h5>
+          <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | JavaScript </h5>
+          <p>Completed a group project within a span of five days.</p>
+          <div>
+            <a href="https://magnamen.netlify.app/" target="_blank" class="project-deployed-link">Live &nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i></a>
+            <a href="https://github.com/Kini99/Magna-Men" target="_blank" class="project-github-link" >Code &nbsp;<i
+              class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+     </div>
+      
     </section>
 
-    <script src="./script.js"></script>
-  </body>
-</html>
+
+
+    <!-- ***************************************************************************************************** -->
+
+
+
+    <section id="github-sec">
+        <div class="github react-activity-calendar">
+          <h1>GitHub Statistics</h1>
+          <div>
+              <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+              <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+              <div class="calendar react-activity-calenda">
+              </div>
+              <div>
+                <a href="https://github.com/Afroz-Saifi" target="_blank"><img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=Afroz-Saifi&show_icons=true&theme=gotham"></a>
+                  
+                <a href="https://github.com/Afroz-Saifi" target="_blank"><img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com?user=Afroz-Saifi&theme=gotham&hide_border=false"></a>
+              </div>
+              <div>
+                <a href="https://github.com/Afroz-Saifi" target="_blank"><img id="github-top-langs"src="https://github-readme-stats.vercel.app/api/top-langs/?username=Afroz-Saifi&layout=compact&theme=gotham"></a>
+              </div>      
+          </div>
+         </div>
+      </section>
+
+
+
+<!-- *************************************************************************************************** -->
+
+
+
+     <section id="contact" class="contact-section tag">
+      <h2 class="section-title">Contact</h2>
+      <div>
+             <div id="contact-link" class="contact-link">
+                  
+                    <div>
+                           <a target="_blank" id="contact-github"
+                                  href="https://github.com/Afroz-Saifi"><img
+                                         src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                                         alt=""><span>Github</span></a>
+                           <a target="_blank" id="contact-linkedin"
+                                  href="https://www.linkedin.com/in/afroz-khan-044632248/"><img
+                                         src="https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png"
+                                         alt=""><span>LinkedIn</span></a>
+                           <a target="_blank" id="contact-phone" href="whatsapp:contact=918766244046@s.whatsapp.com&message=I'd like to chat with you"><img
+                                         src="https://cdn-icons-png.flaticon.com/512/220/220802.png" alt=""><span>+91
+                                         8766244046</span></a>
+                           <a target="_blank" id="contact-email"
+                                  href="mailto:afrozsaifi810@gmail.com"><img
+                                         src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png"
+                                         alt=""><span>afrozsaifi810@gmail.com</span></a>
+                    </div>
+             </div>
+      </div>
+</section>
+
+<script>
+
+
+let menu=document.getElementById("menu-icon");
+let navbar=document.querySelector(".navbar");
+let m=document.querySelector(".main-body")
+let count=0;
+menu.addEventListener('click',()=>{
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('open');
+    
+    m.style.marginTop="200px";
+    count++;
+    if(count%2==0){
+        m.style.marginTop="0px";
+
+    }
+
+    if(m.classList.contains("m-t")){
+        m.classList.remove("m-t");
+    }
+    else{
+        m.classList.add("m-t");
+    }
+});
+
+
+GitHubCalendar(".calendar", "Afroz-Saifi");
+GitHubCalendar(".calendar", "Afroz-Saifi", { responsive: true });
+
+
+function resume(){
+    window.open("https://drive.google.com/file/d/1vn673A0AvSwxSc3c1lTaLJhHDsf0VgNc/view?usp=drive_link")
+}
+
+
+</script>
